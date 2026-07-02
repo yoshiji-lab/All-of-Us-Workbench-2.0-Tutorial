@@ -19,7 +19,13 @@ Some tabs you may use:
 
 ## Navigating your workspace
 
-Open the CERC All of Us v9 tab. You should see an **Overview** tab with a description of the workspace.
+Open the CERC All of Us v9 workspace. It should look like this:
+
+<img width="1416/2" height="713/2" alt="Screenshot 2026-07-02 at 1 52 09 PM" src="https://github.com/user-attachments/assets/b4f72da5-2c37-45f1-816b-dc9136e1b622" />
+
+### Overview
+
+Contains a description of the workspace.
 
 ### Resources
 
