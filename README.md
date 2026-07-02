@@ -47,8 +47,8 @@ A way to access your running workflows (such as nextflow). Will fill in when I u
 
 - Specify the type of app you want to run. It's best to stick with `AoU Jupyter` as a general purpose app. For analyses working with large data tables, you can use `JupyterLab Spark cluster for AoU`. This is analogous to Workbench 1.0's Hail option. 
 
-- Choose the default config. You can customize it in the `Compute options` section.
-  - There, make sure `Zone` is set to `us-central1-a`
+- Choose the default config. You can customize it in the `Compute options` section:
+  - **Important**: `Zone` should be set to `us-central1-a`!
   - Choose a `Machine type` to set number of CPUs, cores, and RAM
   - Keep your `Data disk size` low if you can. 100 GB should be plenty.
   - Set `Autostop` so your app pauses after being idle for some time. 
