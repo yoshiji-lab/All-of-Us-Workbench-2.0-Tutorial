@@ -39,7 +39,7 @@ An app, aka a Virtual Machine (VM), is the environment in which you will run cod
 
 ### Workflows
 
-A way to access your running workflows (such as nextflow). Will fill in when I use these more.
+A way to access your running workflows (such as nextflow).
 
 ## Creating an app
 
