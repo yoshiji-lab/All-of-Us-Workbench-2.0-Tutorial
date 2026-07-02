@@ -8,14 +8,14 @@ If you have already been using the workbench 1.0, you can access Verily by click
 
 Make sure to sign in to Verily with your All of Us email aka `your-user-name@researchallofus.org`.
 
-You will have access to a few tabs:
+The tabs you should check out are:
 - **Home**: displays your recent workspaces and running apps. 
 - **Workspaces**: displays your workspaces.
   - you should have access to `CERC All of Us v9`. If not, contact Satoshi. 
 - **Data collections**: displays the types of data you have access to
   - Genomic data is found within the All of Us Controlled Tier data, which requires training to access.
 - **Pods**: displays your billing accounts
-  - iff `cerc-aou` does not exist, contact Satoshi to be added.
+  - if `cerc-aou` does not exist, contact Satoshi to be added.
 
 ## Navigating your workspace
 
@@ -37,4 +37,4 @@ Create an app in the **Apps** tab by clicking `New app instance`.
 
 You can then specify the type of app you want to run. For our purposes, it's best to stick with `AoU Jupyter` as a general purpose app. For analyses working with large data tables, you can use `JupyterLab Spark cluster for AoU`. This is analogous to Workbench 1.0's Hail option. 
 
-Next, choose the default config. You can customize it in the `Compute options` section. There, make sure `Zone` is set to **us-central1-a**.
+Next, choose the default config. You can customize it in the `Compute options` section. There, make sure `Zone` is set to `us-central1-a`.
