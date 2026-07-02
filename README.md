@@ -73,7 +73,8 @@ Open the `workspace` folder. This is where we will do our analyses.
 
 `workspace-bucket`: use this bucket to store results permanently. 
 - NOTE: storage space costs money! Please add files sparingly.
-- this bucket is `read-only`. You can read the data inside via local paths, but can only write with the `gcloud storage` command (analogous to `gsutil`) as explained in the next section.
+- this bucket is `read-only`.
+  - you can read the data inside via local paths, but can only write with the `gcloud storage` command (analogous to `gsutil`) as explained in the next section.
 
 `scratch-bucket`: anything added to this bucket will be automatically deleted after 14 days.
 - this is a good landing spot for temporary outputs before deciding what to save to workspace-bucket
