@@ -8,7 +8,7 @@ If you have already been using the workbench 1.0, you can access Verily by click
 
 Make sure to sign in to Verily with your All of Us email: `your-user-name@researchallofus.org`.
 
-The tabs you should check out are:
+Some tabs you may use:
 - **Home**: displays your recent workspaces and running apps. 
 - **Workspaces**: displays your workspaces.
   - you should have access to the `CERC All of Us v9` workspace. If not, contact Satoshi. 
@@ -44,8 +44,8 @@ A way to access your running workflows (such as nextflow). Will fill in when I u
 - Choose the default config. You can customize it in the `Compute options` section.
   - There, make sure `Zone` is set to `us-central1-a`
   - Choose a `Machine type` to set number of CPUs, cores, and RAM
-  - Keep your `Data disk size` low if you can.
-  - Set `Autostop` so your app pauses after a certain amount of time left idle (1 hour is probably good). 
+  - Keep your `Data disk size` low if you can. 100 GB should be plenty.
+  - Set `Autostop` so your app pauses after being idle for some time. 
 
 - In `Review details`, optionally give your app a descriptive name. Then click `Create app`. 
 
@@ -53,7 +53,7 @@ A way to access your running workflows (such as nextflow). Will fill in when I u
 
 Your app will take some time to boot up. Once active, you will be able to pause and resume via the `Stop` and `Start` buttons. Pausing reduces the app's cost per hour. Please pause your app when you are done for the day so we don't charge the CERC extra money.
 
-When you are done your analysis and have saved your results in a google bucket, delete the app via the 3 dots in the top right corner. 
+When you are done your analysis and have saved your results in a google cloud bucket, delete the app via the 3 dots in the top right corner. 
 
 Click on the app name to open **JupyterLab**. Here, you can navigate the filesystem via the terminal or clicking folders on the left panel. 
 
