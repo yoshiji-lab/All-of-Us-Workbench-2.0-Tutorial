@@ -31,6 +31,10 @@ You can preview folder contents by selecting one and clicking `Browse` on the to
 
 An app, aka a Virtual Machine (VM), is the environment in which you will run code and access data.
 
+### Workflows
+
+A way to access your running workflows (such as nextflow). Will fill in when I use these more.
+
 ## Creating an app
 
 - Click `New app instance` in the **Apps** tab.
