@@ -8,13 +8,14 @@ If you have already been using the workbench 1.0, you can access Verily by click
 
 Make sure to sign in to Verily with your All of Us email aka `your-user-name@researchallofus.org`.
 
-In the **Home** tab, you can see your recent workspaces and running apps. 
-
-In the **Workspaces** tab, you should have access to `CERC All of Us v9`. If not, contact Satoshi. 
-
-In the **Data collections** tab, you can see the types of data you have access to. Genomic data is found within the All of Us Controlled Tier data, which requires training to access.
-
-In the **Pods** tab, you can see all your billing accounts. If `cerc-aou` does not exist, contact Satoshi to be added.
+You will have access to a few tabs:
+- **Home**: displays your recent workspaces and running apps. 
+- **Workspaces**: displays your workspaces.
+  - you should have access to `CERC All of Us v9`. If not, contact Satoshi. 
+- **Data collections**: displays the types of data you have access to
+  - Genomic data is found within the All of Us Controlled Tier data, which requires training to access.
+- **Pods**: displays your billing accounts
+  - iff `cerc-aou` does not exist, contact Satoshi to be added.
 
 ## Navigating your workspace
 
