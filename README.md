@@ -4,9 +4,9 @@
 
 If you have already been using the workbench 1.0, you can access Verily by clicking `open researcher workbench`:
 
-**IMAGE HERE**
+<img width="1262" height="518" alt="Screenshot 2026-07-02 at 1 39 58 PM" src="https://github.com/user-attachments/assets/a1f112c2-afe4-4eb3-a978-87345e89198d" />
 
-Make sure to sign in to Verily with your All of Us email aka `your-user-name@researchallofus.org`.
+Make sure to sign in to Verily with your All of Us email: `your-user-name@researchallofus.org`.
 
 The tabs you should check out are:
 - **Home**: displays your recent workspaces and running apps. 
