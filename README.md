@@ -65,11 +65,11 @@ When you are done your analysis and have saved your results in a google cloud bu
 
 Click on the app name to open **JupyterLab**. Here, you can navigate the filesystem via the terminal or clicking folders on the left panel. 
 
-### Working in the CERC workspace
+## Working in the CERC workspace
 
 Open the `workspace` folder. This is where we will do our analyses. 
 
-## Storage options
+### Storage options
 
 `workspace-bucket`: use this bucket to store results permanently. 
 - NOTE: storage space costs money! Please add files sparingly.
@@ -90,7 +90,7 @@ Open the `workspace` folder. This is where we will do our analyses.
 
 <img width="246" height="239" alt="image" src="https://github.com/user-attachments/assets/d5e68c96-0405-4fed-856c-1bf5ad60c085" />
 
-## Setting environment variables
+### Setting environment variables
 
 To access data and the workspace bucket, run the following code once at the beginning of your notebook:
 
@@ -102,7 +102,7 @@ To upload files to the workspace bucket, run:
 
 `gcloud storage cp -r local/results/folder/path $WORKSPACE_BUCKET/your_name_analysis/`
 
-## Accessing data
+### Accessing data
 
 NOTE: for anyone wanting to access ACAF files, Satoshi cleaned them up and stored them under `workspace/workspace-bucket/GWAS_core/acaf_snp_qc_oct052025`
 
