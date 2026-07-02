@@ -95,13 +95,15 @@ Open the `workspace` folder. This is where we will do our analyses.
 
 To access data and the workspace bucket, run the following code once at the beginning of your notebook:
 
-`%run ~/workspace/notebooks/Setting_Env_Variables.ipynb`
+> `%run ~/workspace/notebooks/Setting_Env_Variables.ipynb`
 
 This sets the OS variables `WORKSPACE-BUCKET`, `WORKSPACE_CDR`, and `GOOGLE_CLOUD_PROJECT`.
 
 To upload files to the workspace bucket, run:
 
-`gcloud storage cp -r local/results/folder/path $WORKSPACE_BUCKET/your_name_analysis/`
+> `gcloud storage cp -r local/results/folder/path $WORKSPACE_BUCKET/your_name_analysis/`
+
+NOTE: `gcloud storage` is the newer, faster version of `gsutil`, which has been deprecated. The commands are basically identical.
 
 ### Accessing data
 
