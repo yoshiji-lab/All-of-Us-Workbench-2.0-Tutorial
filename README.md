@@ -61,6 +61,8 @@ Your app will take some time to boot up. Once active, you will be able to pause 
 
 When you are done your analysis and have saved your results in a google cloud bucket, delete the app via the 3 dots in the top right corner. 
 
+<img width="421" height="125" alt="Screenshot 2026-07-02 at 1 59 38 PM" src="https://github.com/user-attachments/assets/a8ed7d70-f27b-40dd-b305-7d51c55979a8" />
+
 Click on the app name to open **JupyterLab**. Here, you can navigate the filesystem via the terminal or clicking folders on the left panel. 
 
 ### Working in the CERC workspace
