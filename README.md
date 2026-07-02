@@ -29,9 +29,9 @@ Contains a description of the workspace.
 
 ### Resources
 
-In the **Resources** tab, you will see a list of the resources available in this workspace, which include folders of data as well as Google Cloud buckets for storage.
+In the `Resources` tab, you will see a list of the resources available in this workspace, which include folders of data as well as Google Cloud buckets for storage.
 
-You can preview folder contents by selecting one and clicking `Browse` on the top right. You can preview notebooks and text files without booting up an app by selecting them and clicking `Preview`. To view a bucket in Google Cloud's website, click `Open in GCP`. 
+You can **preview folder contents** by selecting one and clicking `Browse` on the top right. You can **preview notebooks and text files** without booting up an app by selecting them and clicking `Preview`. To view a bucket in Google Cloud's website, click `Open in GCP`. 
 
 ### Apps
 
@@ -43,7 +43,7 @@ A way to access your running workflows (such as nextflow). Will fill in when I u
 
 ## Creating an app
 
-- Click `New app instance` in the **Apps** tab.
+- Click `New app instance` in the `Apps` tab.
 
 - Specify the type of app you want to run. It's best to stick with `AoU Jupyter` as a general purpose app. For analyses working with large data tables, you can use `JupyterLab Spark cluster for AoU`. This is analogous to Workbench 1.0's Hail option. 
 
