@@ -50,7 +50,8 @@ A way to access your running workflows (such as nextflow).
 - Choose the default config. You can customize it in the `Compute options` section:
   - **Important**: `Zone` should be set to `us-central1-a`!
   - Choose a `Machine type` to set number of CPUs, cores, and RAM
-  - Keep your `Data disk size` low if you can. 100 GB should be plenty.
+  - Keep your `Data disk size` low if you can.
+    - NOTE: we discovered that setting the disk size to 50GB (the minimum possible size) causes an error! For now stick with 100GB for small VMs. 
   - Set `Autostop` so your app pauses after being idle for some time. 
 
 - In `Review details`, optionally give your app a descriptive name. Then click `Create app`. 
