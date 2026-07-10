@@ -114,7 +114,7 @@ NOTE: for anyone wanting to access ACAF files, Satoshi cleaned them up and store
 
 ## Debugging
 
-### All my buckets and folders disappeared. How do I get them back?
+### Q: All my buckets and folders disappeared. How do I get them back?
 
 Sometimes the workbench glitches and doesn't "automount" your resources. They're still there, they just need to be mounted again. 
 
