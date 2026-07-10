@@ -123,5 +123,6 @@ To do so, list the different resources in the terminal using:
 
 Copy the resource ID of whatever you want to mount, and do:
 - `wb resource mount --id=<RESOURCE_ID>`
+
 If you're mounting workspace-bucket, please add on `--read-only` at the end!
 
