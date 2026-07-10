@@ -111,3 +111,17 @@ NOTE: `gcloud storage` is the newer, faster version of `gsutil`, which has been 
 NOTE: for anyone wanting to access ACAF files, Satoshi cleaned them up and stored them under `workspace/workspace-bucket/GWAS_core/acaf_snp_qc_oct052025`
 
 **THIS SECTION IS A WORK IN PROGRESS, WILL UPDATE AS I MESS AROUND**
+
+## Debugging
+
+### All my buckets and folders disappeared. How do I get them back?
+
+Sometimes the workbench glitches and doesn't "automount" your resources. They're still there, they just need to be mounted again. 
+
+To do so, list the different resources in the terminal using:
+- `wb resource list`
+
+Copy the resource ID of whatever you want to mount, and do:
+- `wb resource mount --id=<RESOURCE_ID>`
+If you're mounting workspace-bucket, please add on `--read-only` at the end!
+
