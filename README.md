@@ -108,6 +108,9 @@ NOTE: `gcloud storage` is the newer, faster version of `gsutil`, which has been 
 
 ### Accessing data
 
+If you can't access the data by reading from the local `cdrv9` folder, use the google cloud URL for the v9-genomics folder:
+- `gs://vwb-aou-datasets-controlled/v9`
+
 NOTE: for anyone wanting to access ACAF files, Satoshi cleaned them up and stored them under `workspace/workspace-bucket/GWAS_core/acaf_snp_qc_oct052025`
 
 **THIS SECTION IS A WORK IN PROGRESS, WILL UPDATE AS I MESS AROUND**
