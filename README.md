@@ -112,7 +112,7 @@ NOTE: for anyone wanting to access ACAF files, Satoshi cleaned them up and store
 
 **THIS SECTION IS A WORK IN PROGRESS, WILL UPDATE AS I MESS AROUND**
 
-## Debugging
+## FAQs and Debugging
 
 ### Q: All my buckets and folders disappeared. How do I get them back?
 
@@ -126,3 +126,6 @@ Copy the resource ID of whatever you want to mount, and do:
 
 - If you're mounting workspace-bucket, please add on `--read-only` at the end!
 
+### Q: I keep getting Gateway Timeout errors. Why?
+
+This happens when the server is busy. There's sadly no solution other than waiting and refreshing. Maybe stop and start the app if it gets really bad.
