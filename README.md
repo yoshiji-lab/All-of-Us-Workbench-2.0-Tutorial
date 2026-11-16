@@ -76,11 +76,13 @@ Open the `workspace` folder. This is where we will do our analyses.
 - NOTE: storage space costs money! Please add files sparingly.
 - this bucket is `read-only`.
   - you can read the data inside via local paths, but can only write with the `gcloud storage` command (analogous to `gsutil`) as explained in the next section.
+  - EDIT: even though I set it up as read-only, it seems anyone can create or delete files inside these buckets... please be very careful!
 
 `scratch-bucket`: anything added to this bucket will be automatically deleted after 14 days.
 - this is a good landing spot for temporary outputs before deciding what to save to workspace-bucket
 - you can read and write to it directly using its local path
 - please keep your results organized in a user specific folder!
+- EDIT: again, I did set this up to delete things according to the AoU tutorials, but now they're not being deleted... while I figure this out, please be conscious of deleting temporary files.
 
 `notebooks`: this is a bucket for storing notebooks and other scripts.
 - please create a folder for your own scripts so we keep things organized
